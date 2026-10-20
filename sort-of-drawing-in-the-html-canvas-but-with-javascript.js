@@ -16,7 +16,7 @@ ctx.arc(x, y, 10, 0, Math.PI * 2, false);
 ctx.fill();
 }
 
-make the circles when you click the canvas
+//make the circles when you click the canvas
 canvas.addEventListener("click", e => {
 drawCircle(e.offsetX, e.offsetY);
 });
