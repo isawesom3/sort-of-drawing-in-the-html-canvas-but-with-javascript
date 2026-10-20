@@ -26,7 +26,7 @@ document.querySelector("#clear").addEventListener("click", () => {
 ctx.clearRect(0,0, width, height);
 });
 
-change the opacity of circles
+//change the opacity of circles
 document.querySelector("#opacity").addEventListener("change", e => {
 opacity = e.target.value;
 });
