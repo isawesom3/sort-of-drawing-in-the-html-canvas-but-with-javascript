@@ -5,7 +5,7 @@ let ctx = canvas.getContext("2d");
 let width = canvas.width;
 let height = canvas.height;
 
-/set opacity
+//set opacity
 let opacity = 1;
 
 //function to draw a circle
